@@ -5,7 +5,7 @@ This repository gives detailed examples and tutorials on various high-performanc
 Each notebook is self contained and explains in detail the problem at hand and how to solve it.
 
 ### Requirements
-- Numba == 0.50
+- numba == 0.50
 - numpy
 - scipy
 - matplotlib
