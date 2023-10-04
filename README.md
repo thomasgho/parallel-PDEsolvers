@@ -5,11 +5,10 @@ This repository gives detailed examples and tutorials on various high-performanc
 Each notebook is self contained and explains in detail the problem at hand and how to solve it.
 
 ### Requirements
-- Numba == 0.50: _conda install numba_
-- Pytorch == 1.6.0
+- Numba == 0.50
 - numpy
 - scipy
-- Nvidia GPU
+- matplotlib
 
 
 
