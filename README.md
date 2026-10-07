@@ -19,19 +19,6 @@ This repository contains four self-contained Jupyter notebooks that implement an
 | **Diffusion-Iteration.ipynb** | Diffusion Process | Numba acceleration | Performance benchmarking, parallelization |
 
 
-## Implementation Details
-
-The implementations demonstrate several key computational techniques:
-
-- **Finite difference discretization** on regular grids with proper boundary condition handling
-- **Stability analysis** for explicit time-stepping schemes  
-- **Sparse matrix construction** and solution for implicit methods
-- **GPU memory optimization** using shared memory to reduce global memory access
-- **JIT compilation** with Numba for near-C performance from Python
-- **Parallel processing** using multi-core CPU capabilities
-
-Performance results show that GPU acceleration becomes advantageous for sufficiently large problem sizes, with the CUDA implementations achieving substantial speedups over CPU methods for equivalent accuracy. The notebooks include detailed timing comparisons and scaling analysis.
-
 ## Dependencies
 
 - Python 3.7+
